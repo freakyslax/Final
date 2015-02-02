@@ -24,3 +24,8 @@ div {
 .active {
     background-color:#556677;
 }
+
+a {
+    text-decoration: none;
+    font-family: "Verdana";
+}
