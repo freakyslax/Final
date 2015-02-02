@@ -1,6 +1,18 @@
+html{
+    margin: auto;
+    background: #ABA968;
+    border: 10px solid #000;    
+}
+body {
+    width 80%;
+    margin: 20px;
+    background: #ABA968;
+   
+    padding: 3px;
+}
 div {
     border-radius: 5px;
-    background-color: #ABCDEF;
+    background-color: #6B7D39;
     transition: background-color 0.5s ease;
     display:inline;
     font-size:25px;
