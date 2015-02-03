@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $("div" ).hover(
+  $("#menu a" ).hover(
     function(){
     $(this).addClass("active");
     },
