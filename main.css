@@ -19,6 +19,22 @@ body {
     padding: 3px;
 }
 
+body h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+ font-size: 17px;   
+}
+
+p img {
+    display: inline-block;
+}
+
 div {
     background:#6B7D39;
     border-top:2px solid;
@@ -59,7 +75,7 @@ div {
     background-color:#6B9F39;
 }
 
-img {
+body > img {
     display: block;
     margin: auto;
 }
