@@ -36,3 +36,9 @@ ticker();
 setInterval(ticker, 100);
 });
 
+$("#saddle").MouseRollover function(myImage) {
+         myImage.src= "Images/TN_cowboy_saddle_silhouette_crca.jpg";
+        }
+            function MouseOut(myImage) {
+                myImage.src = "Images/cowboy_saddle.jpg";
+            }
