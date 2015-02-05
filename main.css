@@ -103,3 +103,7 @@ a {
     right: 10px; 
     bottom: 10px;
 }
+
+#myHeader {
+    text-align: center;
+}

@@ -19,22 +19,24 @@ $("#slideshow > div:gt(0)").hide();
     .appendTo('#slideshow');
 },  3000);
 });
-    var totalHeader = "......................Welcome To Dino Saddle World!........................";
+var totalHeader = "---------------------Welcome To Dino Saddle World!---------------------";
 var viewableTitle;
 var placeHolder = 0;
-var veiwsize = 20;
+var viewSize = 20;
+
 document.getElementById("myHeader").style.fontFamily = "Verdana";
 document.getElementById("myHeader").style.color = "#593612";
+
 function ticker() {
-    viewableTitle = totalHeader.substr(placeHolder,veiwsize)//start at zero ten go to veiwsize.
+    viewableTitle = totalHeader.substr(placeHolder, viewSize);
     document.getElementById("myHeader").innerHTML = viewableTitle;
     placeHolder++;
-    if(placeHolder>totalHeader.length-veiwsize)
+    if (placeHolder > totalHeader.length - viewSize) {
         placeHolder = 0;
+    }
 }
-ticker();
 setInterval(ticker, 100);
-});
+ticker;
 
 $("#saddle").MouseRollover function(myImage) {
          myImage.src= "Images/TN_cowboy_saddle_silhouette_crca.jpg";
