@@ -19,3 +19,4 @@ $("#slideshow > div:gt(0)").hide();
     .appendTo('#slideshow');
 },  3000);
 });
+
